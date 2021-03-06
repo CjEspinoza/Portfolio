@@ -1,0 +1,45 @@
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: #202020;
+}
+.list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+@font-face{
+    font-family: barlow;
+    src: url('../../../assets/BarlowCondensed-Thin.ttf');
+}
+@font-face{
+    font-family: vast;
+    src: url('../../../assets/VastShadow-Regular.ttf');
+}
+li{
+    font-size: 3vmin;
+    font-family: barlow;
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+.symbol1, .symbol2, .espi{
+    font-family: vast;
+    font-size: 5vh;
+}
+.symbol1, .symbol2{
+    color: rgb(75, 74, 74);
+}
+.espi{
+    color: rgb(248, 211, 0);
+}
+.logo{
+    margin: 4.5vh;
+    margin-left: 7vh;
+    position: absolute;
+}
