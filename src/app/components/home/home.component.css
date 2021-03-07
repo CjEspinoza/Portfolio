@@ -15,14 +15,11 @@
     src: url('../../../assets/Bantayog-Regular.otf');
 }
 .home{
-    width: 100%;
-    height: 650px;
     background-image: url('../../../assets/1.png');
     display: flex;
     flex-direction: row;
-    z-index: -1;
 }
-.page2, .page3, .page4{
+.home, .page2, .page3, .page4, .page5, .page6{
     width: 100%;
     height: 750px;
     display: flex;
@@ -32,15 +29,21 @@
     background-size: cover;
 }
 .page2{
-    background-image: url('../../../assets/3.png');
+    background-image: url('../../../assets/2.png');
 }
 .page3{
-    background-image: url('../../../assets/2.png');
+    background-image: url('../../../assets/3.png');
     flex-direction: column;
 }
 .page4{
     background-image: url('../../../assets/4.png');
     flex-direction: column;
+}
+.page5{
+    background-image: url('../../../assets/5.png');
+}
+.page6{
+    background-image: url('../../../assets/6.png');
 }
 .left, .right{
     width: 50%;
@@ -186,4 +189,75 @@
 .message{
     font-family: asap;
     font-size: 20px;
+}
+
+/* CONTACT */
+.left3{
+    width: 20%;
+}
+.right3{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.con1{
+    flex-direction: column;
+}
+.form-con{
+    margin-top: 5vh;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-form{
+    width: 25px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.tf{
+    width: 230px;
+    border: none;
+    margin-left: 5px;
+    height: 35px;
+}
+.textfield{
+    display: flex;
+    flex-direction: row;
+    width: 275px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 15px;
+}
+#message{
+    width: 560px;
+    resize: none;
+    padding: 10px;
+}
+.btn-submit{
+    font-family: bobby;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.btn-submit:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
 }

@@ -1,0 +1,49 @@
+.footer{
+    background-image: url('../../../assets/6.png');
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fcon{
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.arrowlogo{
+    width: 8vh;
+    cursor: pointer;
+}
+.icon-angular{
+    margin-left: 3vh;
+    width: 7vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.con3{
+    display: flex;
+    justify-content: center;
+}
+.con4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+.con5{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+    color: rgb(209, 209, 209);
+}
+small{
+    color: rgb(209, 209, 209);
+    font-size: 2.5vh;
+}

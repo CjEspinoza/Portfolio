@@ -7,7 +7,8 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  name: string;
+  message: string;
   constructor() { }
 
   ngOnInit(): void {
@@ -20,5 +21,9 @@ export class HomeComponent implements OnInit {
     }else{
       this.fadeout=false;
     }
+  }
+  appendMailTo(){
+    this.name = this.name;
+    this.message = this.message;
   }
 }
