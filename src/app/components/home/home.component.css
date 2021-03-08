@@ -530,10 +530,13 @@ a{
     .circle{
         width: 46vh;
     }
+    .projcon{
+        margin: .5vh;
+    }
 }
 @media screen and (max-width:376px){
     .projcon{
-        margin: 2vh;
+        margin: .5vh;
         width: 15vh;
     }
     .proj{
