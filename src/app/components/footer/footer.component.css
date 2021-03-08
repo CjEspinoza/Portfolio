@@ -47,6 +47,15 @@ small{
     color: rgb(209, 209, 209);
     font-size: 2.5vh;
 }
+@media screen and (max-width:415px){
+    h2{
+        font-size: 4vh;
+        padding-top: 2vh;
+    }
+    small{
+        font-size: 2vh;
+    }
+}
 @media screen and (max-width:376px){
     h2{
         font-size: 4vh;

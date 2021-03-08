@@ -499,6 +499,38 @@ a{
         background-image: url('../../../assets/3.png');
     }
 }
+@media screen and (max-width:415px){
+    .circle{
+        width: 48vh;
+        margin-left: -180px;
+    }
+    .portrait{
+        width: 50vh;
+        margin-left: -190px;
+    }
+    .e4{
+        margin-left: -210px;
+    }
+    .projcon{
+        margin: 1vh;
+        width: 15vh;
+    }
+    .proj{
+        width: 15vh;
+    }
+    .message{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:412px){
+    .portrait{
+        width: 48vh;
+        margin-left: -190px;
+    }
+    .circle{
+        width: 46vh;
+    }
+}
 @media screen and (max-width:376px){
     .projcon{
         margin: 2vh;
@@ -523,7 +555,15 @@ a{
         font-size: 1.5vh;
     }
     .portrait{
+        width: 50vh;
+        margin-left: -170px;
+    }
+    .circle{
         width: 48vh;
+        margin-left: -150px;
+    }
+    .e4{
+        margin-left: -180px;
     }
 }
 @media screen and (max-width:321px){
