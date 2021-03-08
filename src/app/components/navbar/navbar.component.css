@@ -49,3 +49,26 @@ a{
     margin-left: 7vh;
     position: absolute;
 }
+@media screen and (max-width:769px){
+    .list{
+        display: none;
+    }
+}
+@media screen and (max-width:426px){
+    .list{
+        display: none;
+    }
+    .espi{
+        font-size: 3vh;
+    }
+    .symbol1,.symbol2{
+        font-size: 3vh;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .logo{
+        margin: 2vh;
+    }
+
+}

@@ -290,3 +290,286 @@ a{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:1441px){
+}
+@media screen and (max-width:1025px){
+    .circle{
+        margin-left: -380px;
+        width: 400px;
+    }
+    .e4{
+        width: 200px;
+        margin-left: -450px;
+        margin-top: 220px;
+    }
+    .e2{
+        margin-left: -340px;
+        margin-top: 150px;
+    
+    }
+    .banner{
+        margin: 10vh;
+    }
+    .name{
+        font-size: 9vh;
+    }
+    .home, .page2, .page3, .page4, .page5, .page6{
+        width: 100%;
+        height: 520px;
+    }
+    .right2{
+        padding-top: 150px;
+    }
+    .head{
+        font-size: 6vh;
+    }
+    .lang-logo{
+        width: 12vh;
+        margin: 3vh;
+    }
+    .lang-logo:hover{
+        width: 12vh;
+    }
+    .projcon{
+        margin: 3vh;
+        width: 33vh;
+    }
+    .proj{
+        width: 33vh;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:769px){
+    .circle{
+        margin-left: -300px;
+        width: 300px;
+    }
+    .e4{
+        width: 160px;
+        margin-left: -350px;
+        margin-top: 180px;
+    }
+    .e2{
+        margin-left: -270px;
+        margin-top: 80px;
+    }
+    .home, .page2, .page3, .page4, .page5, .page6{
+        width: 100%;
+        height: 380px;
+    }
+    .banner{
+        margin: 7vh;
+    }
+    .name{
+        font-size: 7vh;
+    }
+    .right2{
+        padding-top: 50px;
+    }
+    .auplogo{
+        margin: 10vh;
+    }
+    .socmedlogo{
+        width: 4.5vh;
+        margin: 2vh;
+    }
+    .head{
+        font-size: 5.5vh;
+    }
+    .lang-logo{
+        width: 9vh;
+        margin: 2vh;
+    }
+    .lang-logo:hover{
+        width: 9vh;
+    }
+    .con{
+        margin: 2vh;
+    }
+    .projcon{
+        margin: 2vh;
+        width: 25vh;
+    }
+    .proj{
+        width: 25vh;
+        cursor: pointer;
+    }
+    .message{
+        font-size: 2.5vh;
+    }
+    .tf{
+        width: 195px;
+    }
+    .textfield{
+        width: 195px;
+        margin: 2vh;
+    }
+    #message{
+        width: 420px;
+        padding: 5px;
+        margin-left: 1.4vh;
+    }
+    .right3{
+        margin-top: 12vh;
+    }
+}
+@media screen and (max-width:426px){
+    .tf{
+        width: 120px;
+    }
+    .textfield{
+        width: 180px;
+        margin: 1vh;
+    }
+    #message{
+        width: 365px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+    .right3{
+        margin-top: 5vh;
+    }
+    .projcon{
+        margin: 2vh;
+        width: 18vh;
+    }
+    .proj{
+        width: 18vh;
+    }
+    .head{
+        font-size: 4vh;
+    }
+    .message{
+        font-size: 2vh;
+    }
+    .projname{
+        font-size: 2.3vh;
+    }
+    .lang-logo{
+        width: 6vh;
+        margin: 2vh;
+    }
+    .lang-logo:hover{
+        width: 6vh;
+    }
+    .about{
+        font-size: 2vh;
+    }
+    .banner{
+        visibility: hidden;
+    }
+    .circle{
+        width: 50vh;
+        margin-left: -150px;
+    }
+    .portrait{
+        margin-left: -150px;
+        width: 55vh;
+        position: absolute;
+    }
+    .e4{
+        margin-left: -180px;
+    }
+    .home, .page2, .page3, .page4, .page5, .page6{
+        width: 100%;
+    }
+    .left3{
+        display: none;
+    }
+    .about{
+        margin-top: 5vh;
+        padding:1vh;
+    }
+    .auplogo{
+        width: 20vh;
+        margin: 3vh;
+        margin-top: 15vh;
+    }
+    .message{
+        font-size: 2vh;
+    }
+    .right3{
+        width: 100%;
+    }
+    .page3{
+        background-image: url('../../../assets/4.png');
+    }
+    .page4{
+        background-image: url('../../../assets/3.png');
+    }
+}
+@media screen and (max-width:376px){
+    .projcon{
+        margin: 2vh;
+        width: 15vh;
+    }
+    .proj{
+        width: 15vh;
+    }
+    .tf{
+        width: 100px;
+    }
+    .textfield{
+        width: 160px;
+        margin: 1vh;
+    }
+    #message{
+        width: 325px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+    .message{
+        font-size: 1.5vh;
+    }
+    .portrait{
+        width: 48vh;
+    }
+}
+@media screen and (max-width:321px){
+    .circle{
+        width: 45vh;
+    }
+    .portrait{
+        width: 46vh;
+    }
+    .e4{
+        margin-left: -170px;
+        width: 140px;
+    }
+    .projcon{
+        margin: 2vh;
+        width: 13vh;
+    }
+    .proj{
+        width: 13vh;
+    }
+    .projname{
+        font-size: 1.8vh;
+    }
+    i{
+        font-size: 1.5vh;
+    }
+    .tf{
+        width: 80px;
+    }
+    .textfield{
+        width: 140px;
+        margin: 1vh;
+    }
+    #message{
+        width: 285px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+    .auplogo{
+        margin: 1vh;
+        margin-top: 110px;
+    }
+    .socmedlogo{
+        width: 3vh;
+    }
+    .head{
+        font-size: 3vh;
+    }
+}
