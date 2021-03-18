@@ -167,11 +167,6 @@ a{
     width: 15vh;
     margin: 5vh;
 }
-.lang-logo:hover{
-    width: 17vh;
-    transition: .5s;
-    cursor: pointer;
-}
 .head{
     color: rgb(248, 211, 0);
     display: flex;
@@ -194,7 +189,7 @@ a{
     cursor: pointer;
 }
 .proj:hover{
-    border: 5px solid rgb(248, 211, 0);
+    outline: 10px solid rgb(248, 211, 0);
     transition: .3s;
 }
 .main-con{
@@ -290,6 +285,10 @@ a{
     display: flex;
     justify-content: center;
 }
+.textfield:hover, #message:hover{
+    outline:3px solid rgb(248, 211, 0);
+    transition: .3s;
+}
 
 @media screen and (max-width:1441px){
 }
@@ -327,9 +326,6 @@ a{
     .lang-logo{
         width: 12vh;
         margin: 3vh;
-    }
-    .lang-logo:hover{
-        width: 12vh;
     }
     .projcon{
         margin: 3vh;
