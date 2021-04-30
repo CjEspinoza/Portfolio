@@ -13,7 +13,7 @@ export class AppComponent {
     this.initFacebookService();
   }
   private initFacebookService(): void {
-    const initParams: InitParams = { xfbml:true, version:'v10.0'};
+    const initParams: InitParams = { xfbml:true, version:'v3.2'};
     this.facebookService.init(initParams);
   }
 }
